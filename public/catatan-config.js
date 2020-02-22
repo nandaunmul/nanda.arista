@@ -1,3 +1,13 @@
+	function cobadulu() {
+		liff.getProfile()
+    .then(profile => {
+      const name = profile.displayName
+    })
+    .catch((err) => {
+      console.log('error', err);
+    })
+	}
+	
 	liff.openWindow({
       url:'https://dicoding.com',
       external:false
